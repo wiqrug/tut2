@@ -1,13 +1,12 @@
-import React from "react";
-import "./App.css";
-import BookList from "./BookList";
+import React, { useState } from "react";
+import Timer from "./Timer";
 
-function App() {
+const App = () => {
   return (
     <>
-      <BookList />
+      <Timer></Timer>
     </>
   );
-}
+};
 
 export default App;
